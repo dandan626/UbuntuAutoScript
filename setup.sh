@@ -48,7 +48,7 @@ function apt_install_apps()
 
 swDir="~/SW"
 if [ ! -e "$swDir" ]; then
-        sudo mkdir ${swDir}
+        mkdir "$swDir" 
 fi
 
 # update system
